@@ -1,0 +1,23 @@
+Defect ID: 00001
+Severity: MEDIUM
+Priority: MEDIUM
+Defect name: User can set password less than 8 symbols
+Section: Signup functionality
+Environment: Windows 11
+Minimum system requirements: Windows 10,4gb ram, intel i5 or amd c5
+
+Expected result: User should not be able to set password and application should show error message
+
+Actual result: User successfully sets password and proceeds to login page
+
+Steps to reproduce: 
+1) Open MrBuggy6
+2) Enter "MrBuggy6" as username and "MrBuggy2018" as password
+3) Click "Sign in" button
+4) Enter "1234" in password field and confirm password field
+5) Click save button
+
+Attachments: image.png, video1.mov
+
+Created date: 04-09-2024
+Assignee: Developer 1
