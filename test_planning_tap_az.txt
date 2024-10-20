@@ -1,0 +1,47 @@
+Project name: Test Planning for tap.az
+
+Objective: This test plan aims to validate the functional correctness, performance, and user experience of key features of tap.az, including registration, login, ad publishing, and search functionalities. Additionally, load testing will be performed on static pages such as the homepage, category pages, and user profile pages. UAT will ensure the system meets business requirements.
+
+Scope: This test plan covers functional testing for registration, login, ad publishing, and search functionalities, as well as load testing for static pages including the homepage and profile pages.
+
+Out of scope: Security testing and localization testing will be covered in separate phases due to resource constraints.
+
+Environment:
+
+Desktop: Microsoft Windows 11, 16 GB RAM, Intel Core i7-1200H processor, Google Chrome v105, Firefox v94, Microsoft Edge v97.
+Mobile: Xiaomi A5 (Android 4.57 Jelly Bean).
+Tools will be used: JMeter, TestRail, Excel
+
+Testers involved: Kamran Azimzade, Khayyam Jamaladdinov, Teymur Eyvazov.
+
+Test Lead: Isa Aliyev
+Test Manager: John Smith
+
+Test Phases and Schedule:
+
+Phase	Dates	Conducted by	Description
+Test Design	08-09-2024 – 08-12-2024	Khayyam Jamaladdinov	Creating test cases and preparing for execution.
+Test Execution	08-12-2024 – 08-15-2024	Teymur Eyvazov	Executing functional, non-functional, and performance tests.
+Regression Testing	08-23-2024 – 08-26-2024	Kamran Azimzade	Running regression tests to ensure no impact from recent changes.
+UAT	09-02-2024 – 09-05-2024	Company staff	User Acceptance Testing to confirm the system meets requirements.
+Test Deliverables:
+
+Test cases
+Test plan (this document)
+Test execution reports
+Defect reports
+Performance/load test results
+UAT results
+Entry Criteria:
+
+Stable version of the website available on tap.az.
+Test environment and tools set up and ready for use.
+All test cases approved by the test lead.
+Suspension Criteria:
+
+Testing will be suspended if more than 50% of the test cases fail due to critical defects or environmental issues.
+Exit Criteria:
+
+95% of the tests pass without any critical defects.
+All high-priority defects are resolved, and remaining lower-priority defects have been logged.
+UAT sign-off from company staff.
